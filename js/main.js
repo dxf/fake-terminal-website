@@ -26,13 +26,13 @@ var configs = (function () {
         rmdir_help: "Remove directory, this command will only work if the folders are empty.",
         touch_help: "Change file timestamps. If the file doesn't exist, it's created an empty one.",
         sudo_help: "Execute a command as the superuser.",
-        welcome: "Welcome to FTW (Fake Terminal Website)! :)\nIn order for you to start customizing the texts, go to js/main.js and replace the texts located at the configs var.\nIn that same file, you can define all the fake files you want as well as their content. This files will appear on the sidenav.\nAlso, don't forget to change the colors on the css/main.css file as well as the website title on the index.html file.\nNow in order to get started, feel free to either execute the 'help' command or use the more user-friendly colored sidenav at your left.\nIn order to skip text rolling, double click/touch anywhere.",
+        welcome: "(Double click/tap to skip animations.)\nHi! I'm Daf. I'm a something-teen year-old guy from South Wales. I use he/him pronouns. To learn more about me and find out more cool stuff, click on the menu on the left.",
         internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.",
         welcome_file_name: "welcome_message.txt",
         invalid_command_message: "<value>: command not found.",
         reboot_message: "Preparing to reboot...\n\n3...\n\n2...\n\n1...\n\nRebooting...\n\n",
         permission_denied_message: "Unable to '<value>', permission denied.",
-        sudo_message: "Unable to sudo using a web client.",
+        sudo_message: "Do you really think this is a Linux terminal?",
         usage: "Usage",
         file: "file",
         file_not_found: "File '<value>' not found.",
@@ -42,8 +42,8 @@ var configs = (function () {
         accesible_cores: "Accessible cores",
         language: "Language",
         value_token: "<value>",
-        host: "example.com",
-        user: "guest",
+        host: "daf.lol",
+        user: "visitor",
         is_root: false,
         type_delay: 20
     };
@@ -67,11 +67,12 @@ var files = (function () {
         }
     };
     Singleton.defaultOptions = {
-        "about.txt": "This website was made using only pure JavaScript with no extra libraries.\nI made it dynamic so anyone can use it, just download it from GitHub and change the config text according to your needs.\nIf you manage to find any bugs or security issues feel free to email me: luisbraganca@protonmail.com",
-        "getting_started.txt": "First, go to js/main.js and replace all the text on both singleton vars.\n- configs: All the text used on the website.\n- files: All the fake files used on the website. These files are also used to be listed on the sidenav.\nAlso please notice if a file content is a raw URL, when clicked/concatenated it will be opened on a new tab.\nDon't forget also to:\n- Change the page title on the index.html file\n- Change the website color on the css/main.css\n- Change the images located at the img folder. The suggested sizes are 150x150 for the avatar and 32x32/16x16 for the favicon.",
-        "contact.txt": "mail@example.com",
-        "social_network_1.txt": "https://www.socialite.com/username/",
-        "social_network_2.txt": "https://example.com/profile/9382/"
+        "about.txt": "I took an interest in ICT at a very young age. My reports in my early years of primary school boasted of my excellent ability to use a printer. I now dislike printers.",
+        "contact.txt": "daf@daf.lol",
+        "mail.txt": "https://daf.lol/mail.html",
+        "GitHub.txt": "https://github.com/dxf",
+        "twitter.txt": "https://twitter.com/stressed_tech",
+        "Request_CV.txt": "https://daf.lol/cvrequest.html"
     };
     return {
         getInstance: function (options) {
