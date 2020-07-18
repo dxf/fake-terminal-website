@@ -71,7 +71,7 @@ var files = (function () {
         "contact.txt": "daf@daf.lol",
         "mail.txt": "https://daf.lol/mail.html",
         "GitHub.txt": "https://github.com/dxf",
-        "twitter.txt": "https://twitter.com/stressed_tech",
+
         "Request_CV.txt": "https://daf.lol/cvrequest.html"
     };
     return {
