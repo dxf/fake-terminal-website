@@ -67,7 +67,7 @@ var files = (function () {
         }
     };
     Singleton.defaultOptions = {
-        "about.txt": "I took an interest in ICT at a very young age. My reports in my early years of primary school boasted of my excellent ability to use a printer. I now dislike printers.",
+        "about.txt": "Hey! I'm Daf. I present on the radio @ Bro Radio, and have a general interest in all things broadcast! I took an interest in ICT at a very young age. My reports in my early years of primary school boasted of my excellent ability to use a printer. I now dislike printers.",
         "contact.txt": "daf@daf.lol",
         "mail.txt": "https://daf.lol/mail.html",
         "GitHub.txt": "https://github.com/dxf",
