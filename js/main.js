@@ -71,6 +71,7 @@ var files = (function () {
         "contact.txt": "daf@daf.lol",
         "mail.txt": "https://daf.lol/mail.html",
         "GitHub.txt": "https://github.com/dxf",
+        "Twitter.txt": "https://twitter.com/heyimdaf",
 
         "Request_CV.txt": "https://daf.lol/cvrequest.html"
     };
